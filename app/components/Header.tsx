@@ -104,7 +104,7 @@ export default function Header() {
         {/* Logo */}
         <Link
           href="/"
-          className="text-xl md:text-2xl font-semibold tracking-[0.3em] text-[#212121] uppercase text-center w-full md:translate-x-[15px]"
+          className="text-xl md:text-2xl font-semibold tracking-[0.3em] text-[#212121] uppercase text-center w-full ps-15 md:ps-30"
         >
           INNAI & CO
         </Link>

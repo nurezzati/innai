@@ -47,6 +47,7 @@ export default function InstagramSection() {
 
   return (
     <section className="bg-[#e9c9bb] py-12 overflow-hidden">
+      <hr className="w-2/5 mx-auto border-t border-white mb-20" />
       {/* Header */}
       <div className="text-center mb-8 px-4">
         <p className="text-[10px] tracking-[0.3em] uppercase text-[#6b5a50] mb-1">Stay Connected</p>

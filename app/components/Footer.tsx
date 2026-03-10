@@ -26,14 +26,14 @@ const YouTubeIcon = () => (
 
 export default function Footer() {
   return (
-    <footer className="bg-[#212121] text-[#f5f2ec]">
+    <footer className="bg-[#e9c9bb] text-[#212121] border-t border-white">
       <div className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* Brand */}
         <div className="space-y-4">
           <h3 className="text-base tracking-[0.25em] uppercase font-medium">
             INNAI & CO
           </h3>
-          <p className="text-[13px] leading-6 text-[#a0998f]">
+          <p className="text-[13px] leading-6 text-[#212121]">
             Modest fashion reimagined. Elegant designs for the modern woman,
             crafted with intention and worn with grace.
           </p>
@@ -42,7 +42,7 @@ export default function Footer() {
               href="https://www.instagram.com/INNAIandCo"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#a0998f] hover:text-[#e9c9bb] transition-colors"
+              className="text-[#212121] hover:text-[#e9c9bb] transition-colors"
             >
               <InstagramIcon />
             </a>
@@ -50,7 +50,7 @@ export default function Footer() {
               href="https://www.facebook.com/InnaiRed"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#a0998f] hover:text-[#e9c9bb] transition-colors"
+              className="text-[#212121] hover:text-[#e9c9bb] transition-colors"
             >
               <FacebookIcon />
             </a>
@@ -58,7 +58,7 @@ export default function Footer() {
               href="https://twitter.com/InnaiRed"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#a0998f] hover:text-[#e9c9bb] transition-colors"
+              className="text-[#212121] hover:text-[#e9c9bb] transition-colors"
             >
               <TwitterIcon />
             </a>
@@ -66,7 +66,7 @@ export default function Footer() {
               href="https://www.youtube.com/@innaiandco"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#a0998f] hover:text-[#e9c9bb] transition-colors"
+              className="text-[#212121] hover:text-[#e9c9bb] transition-colors"
             >
               <YouTubeIcon />
             </a>
@@ -90,7 +90,7 @@ export default function Footer() {
               <li key={link.label}>
                 <Link
                   href={link.href}
-                  className="text-[13px] text-[#a0998f] hover:text-[#f5f2ec] tracking-wide transition-colors"
+                  className="text-[13px] text-[#212121] hover:text-[#e9c9bb] tracking-wide transition-colors"
                 >
                   {link.label}
                 </Link>
@@ -116,7 +116,7 @@ export default function Footer() {
               <li key={link.label}>
                 <Link
                   href={link.href}
-                  className="text-[13px] text-[#a0998f] hover:text-[#f5f2ec] tracking-wide transition-colors"
+                  className="text-[13px] text-[#212121] hover:text-[#e9c9bb] tracking-wide transition-colors"
                 >
                   {link.label}
                 </Link>
@@ -141,7 +141,7 @@ export default function Footer() {
               <li key={link.label}>
                 <Link
                   href={link.href}
-                  className="text-[13px] text-[#a0998f] hover:text-[#f5f2ec] tracking-wide transition-colors"
+                  className="text-[13px] text-[#212121] hover:text-[#e9c9bb] tracking-wide transition-colors"
                 >
                   {link.label}
                 </Link>
@@ -151,17 +151,16 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="border-t border-white/10">
+    
         <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-[11px] text-[#a0998f] tracking-wider">
+          <p className="text-[11px] text-[#212121] tracking-wider">
             © 2026 INNAI & CO. All rights reserved.
           </p>
-          <p className="text-[11px] text-[#a0998f] tracking-wider">
+          <p className="text-[11px] text-[#212121] tracking-wider">
             Payments by Atome &nbsp;·&nbsp; Visa &nbsp;·&nbsp; Mastercard
             &nbsp;·&nbsp; FPX
           </p>
         </div>
-      </div>
     </footer>
   );
 }
